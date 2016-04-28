@@ -40,7 +40,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes/descriptor"
+	"github.com/globegitter/protobuf/ptypes/descriptor"
 )
 
 const googleApis = "type.googleapis.com/"
