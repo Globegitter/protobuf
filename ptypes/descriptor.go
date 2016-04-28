@@ -35,12 +35,6 @@ package ptypes
 // google.protobuf.Any message.
 
 import (
-	"fmt"
-	"reflect"
-	"strings"
-
-	"github.com/golang/protobuf/proto"
-	"github.com/globegitter/protobuf/ptypes/descriptor"
+	_ "github.com/golang/protobuf/proto"
+	_ "github.com/globegitter/protobuf/ptypes/descriptor"
 )
-
-const googleApis = "type.googleapis.com/"
