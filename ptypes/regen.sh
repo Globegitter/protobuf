@@ -15,6 +15,7 @@ PROTO_FILES='
   struct.proto
   timestamp.proto
   wrappers.proto
+  descriptor.proto
 '
 
 function die() {
